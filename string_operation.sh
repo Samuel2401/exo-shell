@@ -6,8 +6,8 @@ ISAY=$BUFFETT
 Change1=${ISAY[@]/snow/foot}
 Change2=${Change1[@]// snow/}
 Change3=${Change2[@]/finding/getting}
-Findw=`expr index "$Change3" 'w'`
-Change4=${Change3::$Findw+2}
+FindW=`expr index "$Change3" 'w'`
+Change4=${Change3::$FindW+2}
 ISAY=$Change4
 
 echo "Warren Buffett said:"
